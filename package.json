@@ -1,5 +1,5 @@
 {
-  "name": "svg-geoplot",
+  "name": "@betafcc/svg-geoplot",
   "version": "0.1.0",
   "description": "Small Topojson ploter with location markers and stuff",
   "main": "lib/index.js",
