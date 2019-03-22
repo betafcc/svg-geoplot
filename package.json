@@ -1,9 +1,10 @@
 {
   "name": "svg-geoplot",
   "version": "0.1.0",
-  "description": "",
+  "description": "Small Topojson ploter with location markers and stuff",
   "main": "lib/index.js",
   "scripts": {
+    "clean": "rimraf output.pdf",
     "example": "node example.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,14 +19,14 @@
     "url": "https://github.com/betafcc/svg-geoplot/issues"
   },
   "homepage": "https://github.com/betafcc/svg-geoplot#readme",
-  "devDependencies": {
-    "pdfkit": "^0.9.0"
-  },
   "dependencies": {
     "d3": "^5.9.1",
     "d3-selection-multi": "^1.0.1",
     "node-fetch": "^2.3.0",
     "topojson": "^3.0.2",
     "@betafcc/svg": "^0.2.1"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3"
   }
 }
